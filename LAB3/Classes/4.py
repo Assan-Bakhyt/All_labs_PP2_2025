@@ -8,7 +8,7 @@ class Point:
     def show(self):
         print(f"Coordinates: ({self.x}, {self.y})")
     
-    def move(self, x1, y1):
+    def move(self, x1, y1,z1):
         self.x = x1
         self.y = y1
 
